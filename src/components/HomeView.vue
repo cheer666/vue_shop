@@ -6,8 +6,8 @@
 <script>
 export default {
 
-    methods:{
-        logout(){
+    methods: {
+        logout() {
             window.sessionStorage.clear();
             // window.sessionStorage.removeItem("token");只删除token
             this.$router.push("/login")
